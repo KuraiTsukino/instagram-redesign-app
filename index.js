@@ -3,8 +3,8 @@ const posts = document.getElementById("posts");
 const photos = document.getElementById("photos");
 
 const BASE_API = "https://graph.instagram.com/me";
-const ACCESS_TOKEN =
-  "IGQVJVTHVFUS03RkQ2MkwwcmFZAV2xtTTR3bFV1RDd4VW5oZAnBwLUZAWREY0a0c4Ny15aHJTbi1rNkVhQzRBSE1oR29YT1NkTU1xQjByZAkZAkbzRYdVJkQmpWUTNkcDNmekNLZADFoSFhWSjRoZAU5LZAXhWWjRlbjk0X25qUjE4";
+const ACCESS_TOKEN = "IGQVJVTHVFUS03RkQ2MkwwcmFZAV2xtTTR3bFV1RDd4VW5oZAnBwLUZAWREY0a0c4Ny15aHJTbi1rNkVhQzRBSE1oR29YT1NkTU1xQjByZAkZAkbzRYdVJkQmpWUTNkcDNmekNLZADFoSFhWSjRoZAU5LZAXhWWjRlbjk0X25qUjE4";
+
 
 async function getUserInfo() {
   const response = await fetch(
