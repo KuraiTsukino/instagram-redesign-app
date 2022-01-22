@@ -26,6 +26,8 @@ Al dar clic se abre una ventana para autorizar el acceso a Instagram y a los dat
 
 <img src="Postman.png">
 
+## Nota aclaratoria. Los datos duran aproximadamente una hora en la página.
+
 Con esto obtenemos el "access token" que es el que usaremos en la variable de JavaScript y con la que se hace el consumo de la API.
 Se rediseñó con el neomorfismo
 
